@@ -1,0 +1,15 @@
+git reset -> devuelve a una versión anterior de nuestro archivo dependiendo del tag seleccionado.
+
+Existen dos tipos de reset:
+git reset ####### --hard -> devuelve absolutamente todo a la versión anterior referida en el tag.
+git reset ####### --soft -> devuelve el estado del archivo al descrito en el tag, mas no así los
+archivos que no se encuentran en el staging area.
+
+git log --stat -> muestra en detalle los cambios realizados a partir del último commit
+
+git checkout ####### archivo -> un salto en el timepo de creación del commit identificado por el
+tag escrito, los cambios no son definitivos, se mantienen en el staging area, por el contrario, 
+si se realiza el commit posterior al checkout se corre el peligro de guardar definitivamente el 
+salto realizado y por ende la pérdida de los archivos.
+
+git checkout master nombreArchivo -> para volver al estado inicial.
