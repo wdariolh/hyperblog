@@ -1,1 +1,2 @@
-Esta es un fichero de prueba.
+Esta es un fichero txt de prueba_2.
+Añadimos una fila nueva
